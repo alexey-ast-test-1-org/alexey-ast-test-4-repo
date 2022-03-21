@@ -1,0 +1,19 @@
+{
+    "additionalProperties": {
+        "cxFlow": {
+            "filters": {
+                "severity": ["High", "Medium"]
+            },
+            "thresholds": {
+                "MEDIUM": 14,
+                "LOW": 15
+            },
+            "bugTracker": "JIRA",
+			"vulnerabilityScanners": ["sca"]
+        }
+    },
+	"sca": {
+		"appUrl": "https://test.example.com",
+		"team": "my-test-team1"
+	}
+}
