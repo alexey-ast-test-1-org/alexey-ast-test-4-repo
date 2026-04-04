@@ -1,3 +1,3 @@
 # All vulnerability types
 
-123
+1232
